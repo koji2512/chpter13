@@ -48,7 +48,7 @@ public void setName(String name){
 
     public void attack(Matango m) {
         System.out.println(this.name + "の攻撃！");
-        System.out.println("お化けキノコA" + m.suffix + "から100ポイントの反撃を受けた");
+        System.out.println("お化けキノコ" + m.suffix + "から100ポイントの反撃を受けた");
         this.hp -= 100;
         if (this.hp <= 0) {
             this.die();

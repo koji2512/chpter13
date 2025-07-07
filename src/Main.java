@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Hero h = new Hero("ミナト",40);
-        Matango m = new Matango("お化けキノコA");
+        Matango m = new Matango('A');
         //h.hp = 100;//エラーが出る
         h.setHp(40);
         h.setName("ミナト");
